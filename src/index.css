@@ -1,0 +1,86 @@
+/* =====================================================
+   index.css — Global base styles for Phish or Legit?
+   ===================================================== */
+
+:root {
+  /* Color palette */
+  --color-bg: #f0f4f8;
+  --color-surface: #ffffff;
+  --color-surface-alt: #f8fafc;
+  --color-border: #e2e8f0;
+  --color-text-primary: #1a202c;
+  --color-text-secondary: #4a5568;
+  --color-text-muted: #718096;
+
+  /* Accent colors */
+  --color-primary: #4f46e5;
+  --color-primary-hover: #4338ca;
+  --color-primary-light: #eef2ff;
+
+  /* Answer button colors */
+  --color-legit: #059669;
+  --color-legit-hover: #047857;
+  --color-legit-bg: #ecfdf5;
+  --color-legit-border: #6ee7b7;
+
+  --color-suspicious: #d97706;
+  --color-suspicious-hover: #b45309;
+  --color-suspicious-bg: #fffbeb;
+  --color-suspicious-border: #fcd34d;
+
+  --color-phishing: #dc2626;
+  --color-phishing-hover: #b91c1c;
+  --color-phishing-bg: #fef2f2;
+  --color-phishing-border: #fca5a5;
+
+  /* Feedback colors */
+  --color-correct: #059669;
+  --color-correct-bg: #ecfdf5;
+  --color-correct-border: #6ee7b7;
+  --color-incorrect: #dc2626;
+  --color-incorrect-bg: #fef2f2;
+  --color-incorrect-border: #fca5a5;
+
+  /* Typography */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-text-primary);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-bg);
+  min-height: 100vh;
+  min-width: 320px;
+}
+
+h1, h2, h3 {
+  line-height: 1.3;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
