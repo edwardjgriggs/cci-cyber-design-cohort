@@ -1,16 +1,28 @@
-# React + Vite
+# CCI Cybersecurity Design Cohort — Team 7
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**An interactive phishing awareness game built for Virginia's Commonwealth Cyber Initiative.**
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project was developed as part of the CCI undergraduate cybersecurity design cohort. Our team built a browser-based phishing awareness training tool that teaches users to identify and respond to common phishing techniques through interactive scenarios.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Interactive phishing email simulations with real-world scenarios
+- Score-based feedback system to reinforce learning
+- Progressive difficulty across multiple challenge rounds
+- Educational breakdowns explaining red flags in each example
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React + Vite
+- JavaScript / CSS
+- GitHub Actions (CI/CD)
+
+## Team
+
+Developed by Team 7 as part of the Commonwealth Cyber Initiative's undergraduate cybersecurity design program in Virginia.
+
+## Context
+
+The [Commonwealth Cyber Initiative](https://cyberinitiative.org/) is a Virginia statewide investment connecting academic, industry, and government partners to advance cybersecurity research and education.
