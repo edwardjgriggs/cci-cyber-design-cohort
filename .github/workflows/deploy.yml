@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [claude/phishing-awareness-game-lXrjZ]
+    branches: [main]
 
 # Allow the workflow to deploy to GitHub Pages
 permissions:

@@ -13,23 +13,14 @@ This project was developed as part of the CCI undergraduate cybersecurity design
 * Progressive difficulty across multiple challenge rounds
 * Educational breakdowns explaining red flags in each example
 
+## Security Concepts Covered
 
-
-\## Security Concepts Covered
-
-
-
-\- Spear phishing and targeted social engineering
-
-\- Pretexting and authority impersonation
-
-\- URL spoofing and homograph attacks
-
-\- Credential harvesting via fake login pages
-
-\- Urgency and fear-based manipulation tactics
-
-\- Identifying mismatched sender addresses and display names
+* Spear phishing and targeted social engineering
+* Pretexting and authority impersonation
+* URL spoofing and homograph attacks
+* Credential harvesting via fake login pages
+* Urgency and fear-based manipulation tactics
+* Identifying mismatched sender addresses and display names
 
 ## Tech Stack
 
