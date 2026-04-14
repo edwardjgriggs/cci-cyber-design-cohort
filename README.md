@@ -1,32 +1,36 @@
-# CCI Cybersecurity Design Cohort — Team 7
+# Vault 7 — Cybersecurity Training Game
 
-**An interactive phishing awareness game built for Virginia's Commonwealth Cyber Initiative.**
+**An interactive cybersecurity training experience built for Virginia's Commonwealth Cyber Initiative (CCI) Design Cohort — Team 7.**
 
 ## Overview
 
-This project was developed as part of the CCI undergraduate cybersecurity design cohort. Our team built a browser-based phishing awareness training tool that teaches users to identify and respond to common phishing techniques through interactive scenarios.
+Vault 7 is a browser-based training game that walks non-technical users through core cybersecurity skills via mission-style scenarios:
 
-## Features
+- **Operation First Line** — password security (builder + cracking mechanics)
+- **Operation Bait & Hook** — phishing detection and inbox triage
+- Agent-style mission briefings, scoring, and completion screens
 
-* Interactive phishing email simulations with real-world scenarios
-* Score-based feedback system to reinforce learning
-* Progressive difficulty across multiple challenge rounds
-* Educational breakdowns explaining red flags in each example
+## Run Locally
 
-## Security Concepts Covered
+The game is a single standalone HTML file — no build step required.
 
-* Spear phishing and targeted social engineering
-* Pretexting and authority impersonation
-* URL spoofing and homograph attacks
-* Credential harvesting via fake login pages
-* Urgency and fear-based manipulation tactics
-* Identifying mismatched sender addresses and display names
+```bash
+# From the repo root
+python -m http.server 8080
+# Then open http://localhost:8080/
+```
 
-## Tech Stack
+Or just open `index.html` directly in a browser.
 
-* React + Vite
-* JavaScript / CSS
-* GitHub Actions (CI/CD)
+## Live Site
+
+Deployed via GitHub Pages: https://edwardjgriggs.github.io/cci-cyber-design-cohort/
+
+## Project Files
+
+- `index.html` — the standalone Vault 7 game
+- `public/vault7.html` — same game, served at `/vault7.html`
+- `google-site/` — marketing site HTML embeds (home, problem, solution, team)
 
 ## Team
 
@@ -36,3 +40,6 @@ Developed by Team 7 as part of the Commonwealth Cyber Initiative's undergraduate
 
 The [Commonwealth Cyber Initiative](https://cyberinitiative.org/) is a Virginia statewide investment connecting academic, industry, and government partners to advance cybersecurity research and education.
 
+## License
+
+MIT — see [LICENSE](LICENSE).
